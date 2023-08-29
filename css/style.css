@@ -1,0 +1,88 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=button]
+{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black
+}
+input[type=form]
+{
+    width: 190px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.sub_container
+{
+    width: 200px;
+    display: flex;
+}
+
+#zero
+{
+    flex-grow: 2;
+}
+
+.number
+{
+    background-color: gray;
+}
+
+.number:hover
+{
+    background-color: rgb(189, 182, 182);
+    transition: 0.1s;
+}
+
+.symbols
+{
+    background-color: rgb(211, 149, 14);
+}
+
+.symbols:hover
+{
+    background-color: rgb(240, 169, 16);
+    transition: 0.1s;
+}
+
+#equal
+{
+    background-color: red;
+}
+
+#equal:hover
+{
+    background-color: rgb(253, 107, 107);
+    transition: 0.1s;
+}
+
+.other
+{
+    background-color: green;
+}
+
+.other:hover
+{
+    background-color: rgb(4, 194, 4);
+    transition: 0.1s;
+}
